@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0566A3CC22B40FB500604262 /* Two_Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Two_Buttons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0566A3CC22B40FB500604262 /* TwoButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0566A3CF22B40FB500604262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0566A3D122B40FB500604262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0566A3D422B40FB500604262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0566A3D622B40FB600604262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0566A3D922B40FB600604262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0566A3DB22B40FB600604262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0566A3E022B40FB700604262 /* Two_ButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Two_ButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0566A3E022B40FB700604262 /* TwoButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0566A3E422B40FB700604262 /* Two_ButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_ButtonsTests.swift; sourceTree = "<group>"; };
 		0566A3E622B40FB700604262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0566A3EB22B40FB700604262 /* Two_ButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Two_ButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0566A3EB22B40FB700604262 /* TwoButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0566A3EF22B40FB700604262 /* Two_ButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_ButtonsUITests.swift; sourceTree = "<group>"; };
 		0566A3F122B40FB700604262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		0566A3CD22B40FB500604262 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0566A3CC22B40FB500604262 /* Two_Buttons.app */,
-				0566A3E022B40FB700604262 /* Two_ButtonsTests.xctest */,
-				0566A3EB22B40FB700604262 /* Two_ButtonsUITests.xctest */,
+				0566A3CC22B40FB500604262 /* TwoButtons.app */,
+				0566A3E022B40FB700604262 /* TwoButtonsTests.xctest */,
+				0566A3EB22B40FB700604262 /* TwoButtonsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0566A3CB22B40FB500604262 /* Two_Buttons */ = {
+		0566A3CB22B40FB500604262 /* TwoButtons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0566A3F422B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_Buttons" */;
+			buildConfigurationList = 0566A3F422B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtons" */;
 			buildPhases = (
 				0566A3C822B40FB500604262 /* Sources */,
 				0566A3C922B40FB500604262 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Two_Buttons;
+			name = TwoButtons;
 			productName = Two_Buttons;
-			productReference = 0566A3CC22B40FB500604262 /* Two_Buttons.app */;
+			productReference = 0566A3CC22B40FB500604262 /* TwoButtons.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0566A3DF22B40FB700604262 /* Two_ButtonsTests */ = {
+		0566A3DF22B40FB700604262 /* TwoButtonsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0566A3F722B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_ButtonsTests" */;
+			buildConfigurationList = 0566A3F722B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtonsTests" */;
 			buildPhases = (
 				0566A3DC22B40FB700604262 /* Sources */,
 				0566A3DD22B40FB700604262 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				0566A3E222B40FB700604262 /* PBXTargetDependency */,
 			);
-			name = Two_ButtonsTests;
+			name = TwoButtonsTests;
 			productName = Two_ButtonsTests;
-			productReference = 0566A3E022B40FB700604262 /* Two_ButtonsTests.xctest */;
+			productReference = 0566A3E022B40FB700604262 /* TwoButtonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0566A3EA22B40FB700604262 /* Two_ButtonsUITests */ = {
+		0566A3EA22B40FB700604262 /* TwoButtonsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0566A3FA22B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_ButtonsUITests" */;
+			buildConfigurationList = 0566A3FA22B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtonsUITests" */;
 			buildPhases = (
 				0566A3E722B40FB700604262 /* Sources */,
 				0566A3E822B40FB700604262 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				0566A3ED22B40FB700604262 /* PBXTargetDependency */,
 			);
-			name = Two_ButtonsUITests;
+			name = TwoButtonsUITests;
 			productName = Two_ButtonsUITests;
-			productReference = 0566A3EB22B40FB700604262 /* Two_ButtonsUITests.xctest */;
+			productReference = 0566A3EB22B40FB700604262 /* TwoButtonsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0566A3C722B40FB500604262 /* Build configuration list for PBXProject "Two_Buttons" */;
+			buildConfigurationList = 0566A3C722B40FB500604262 /* Build configuration list for PBXProject "TwoButtons" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0566A3CB22B40FB500604262 /* Two_Buttons */,
-				0566A3DF22B40FB700604262 /* Two_ButtonsTests */,
-				0566A3EA22B40FB700604262 /* Two_ButtonsUITests */,
+				0566A3CB22B40FB500604262 /* TwoButtons */,
+				0566A3DF22B40FB700604262 /* TwoButtonsTests */,
+				0566A3EA22B40FB700604262 /* TwoButtonsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		0566A3E222B40FB700604262 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0566A3CB22B40FB500604262 /* Two_Buttons */;
+			target = 0566A3CB22B40FB500604262 /* TwoButtons */;
 			targetProxy = 0566A3E122B40FB700604262 /* PBXContainerItemProxy */;
 		};
 		0566A3ED22B40FB700604262 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0566A3CB22B40FB500604262 /* Two_Buttons */;
+			target = 0566A3CB22B40FB500604262 /* TwoButtons */;
 			targetProxy = 0566A3EC22B40FB700604262 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDKN288YMJ;
 				INFOPLIST_FILE = Two_Buttons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDKN288YMJ;
 				INFOPLIST_FILE = Two_Buttons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two_Buttons.app/Two_Buttons";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoButtons.app/TwoButtons";
 			};
 			name = Debug;
 		};
@@ -498,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two_Buttons.app/Two_Buttons";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoButtons.app/TwoButtons";
 			};
 			name = Release;
 		};
@@ -543,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0566A3C722B40FB500604262 /* Build configuration list for PBXProject "Two_Buttons" */ = {
+		0566A3C722B40FB500604262 /* Build configuration list for PBXProject "TwoButtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0566A3F222B40FB700604262 /* Debug */,
@@ -552,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0566A3F422B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_Buttons" */ = {
+		0566A3F422B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0566A3F522B40FB700604262 /* Debug */,
@@ -561,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0566A3F722B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_ButtonsTests" */ = {
+		0566A3F722B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtonsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0566A3F822B40FB700604262 /* Debug */,
@@ -570,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0566A3FA22B40FB700604262 /* Build configuration list for PBXNativeTarget "Two_ButtonsUITests" */ = {
+		0566A3FA22B40FB700604262 /* Build configuration list for PBXNativeTarget "TwoButtonsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0566A3FB22B40FB700604262 /* Debug */,
